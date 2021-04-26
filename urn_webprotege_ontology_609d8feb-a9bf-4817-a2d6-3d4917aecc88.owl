@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:609d8feb-a9bf-4817-a2d6-3d4917aecc88#"
+     xml:base="urn:webprotege:ontology:609d8feb-a9bf-4817-a2d6-3d4917aecc88"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:609d8feb-a9bf-4817-a2d6-3d4917aecc88"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R725aQQBUy5JPtwh7SoC8xZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R725aQQBUy5JPtwh7SoC8xZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R74FjdrZMKMrTTpOS7m8YEl"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yuval Noah Harari</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 x 21,5 cm</dc:description>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">412 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardcover</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolektif Kitap</dc:publisher>
+        <dc:title xml:lang="tr">Hayvanlardan Tanrılara - Sapiens</dc:title>
+        <rdfs:label>historyBooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.idefix.com/Kitap/Hayvanlardan-Tanrilara-Sapiens/Arastirma-Tarih/Tarih/Dunya-Tarihi/urunno=0000000633872"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74FjdrZMKMrTTpOS7m8YEl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74FjdrZMKMrTTpOS7m8YEl">
+        <rdfs:label>Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9encXquednfya15fMCScqa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9encXquednfya15fMCScqa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R74FjdrZMKMrTTpOS7m8YEl"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rahmi Turan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">128 pages</dc:description>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13,5 x 19,5</dc:description>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786057035318</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardcover</dc:format>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Printed</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:title xml:lang="tr">Babadan Fıkralar</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">humorBooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.idefix.com/Kitap/Babadan-Fikralar/Mizah/Mizah-Romani-Oyku/urunno=0001911350001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0lvf9vKponhBjTIvC2B4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD0lvf9vKponhBjTIvC2B4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R74FjdrZMKMrTTpOS7m8YEl"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Şevket Süreyya Aydemir</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789751403810</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Softcover</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remzi Kitabevi</dc:publisher>
+        <dc:title xml:lang="tr">Suyu Arayan Adam</dc:title>
+        <rdfs:label>biographyBooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.dr.com.tr/Kitap/Suyu-Arayan-Adam/Edebiyat/Biyografi-Oto-Biyografi/urunno=0000000054611"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKmQOSGkDi4Y8AE5zN3qux -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDKmQOSGkDi4Y8AE5zN3qux">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R74FjdrZMKMrTTpOS7m8YEl"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David Eagleman</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786054729692</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Softbound</dc:format>
+        <dc:language xml:lang="en">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domingo Yayınevi</dc:publisher>
+        <dc:title xml:lang="tr">Beyin Senin Hikayen</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scienceBooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.idefix.com/Kitap/Beyin-Senin-Hikayen/Bilim/Populer-Bilim/urunno=0000000693729"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">books</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
